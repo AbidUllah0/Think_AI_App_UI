@@ -2,5 +2,5 @@
 class AppImages{
 ///App all Images
 
-  static const image = "";
+  static const notificationImage = "assets/images/png/notification.png";
 }

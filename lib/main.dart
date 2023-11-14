@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:think_ai/view/login/login.dart';
+import 'package:think_ai/view/participants_vote/participants_vote.dart';
 
 
 void main() {
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
             // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
             useMaterial3: true,
           ),
-          // home: const LoginScreen(),
+          home:  const ParticipantsVoteScreen(),
         );
       },
     );
