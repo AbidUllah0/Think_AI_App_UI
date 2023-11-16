@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../../utils/app_text_styles/text_styles.dart';
 
 class CustomText extends StatelessWidget {
-  final String text;
+  String text;
   TextStyle style;
   final TextAlign textAlign;
 

@@ -21,4 +21,9 @@ class AppColors {
     end: Alignment(0.7, -4.00),
     colors: [AppColors.primaryColor, AppColors.whiteColor],
   );
+
+  /// registeration textfield text color
+  static Color textFieldTextColor = Color(0xffC8C8C8);
+  static Color textFieldlabelColor = Color(0xff666666);
+  static Color borderColor = Color(0xffDEDCDC);
 }
